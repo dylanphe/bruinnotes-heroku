@@ -1,0 +1,86 @@
+.login-body{
+    background-color:#2D68C4;
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.login-btn {
+    background-color: transparent;
+    color: white;
+    font-weight: bolder;
+    font-size: medium;
+    font-family: "Gloria Hallelujah";
+    border-style: none;
+    border-radius:40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+}
+
+.login-btn:hover {
+    background-color: #F2A900;
+    color: #2D68C4;
+}
+
+.login-top-btn {
+    position: relative;
+    top: 8vh;
+    right: 7vh;
+    align-self: flex-end;
+}
+
+#login-btm-btn {
+    position: relative;
+    top: 5%;
+}
+
+#login-title-name{
+    margin-top: 8%;
+    font-family: "Gloria Hallelujah";
+    font-size: 65px;
+    color:white;
+}
+
+#login-title-name:hover{
+    color:rgb(214, 213, 213);
+}
+
+.login-txtbox {
+    width: 50%;
+    font-size: medium;
+    padding: 10px;
+    margin: 12px;
+    border: 0px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#login-link-box {
+    width: 50%;
+    text-align: right;
+}
+
+#login-link-btn {
+    color:white;
+    border: none;
+    background-color: transparent;
+}
+
+#login-link-btn:hover {
+    text-decoration: underline;
+    color: #F2A900;
+}
+
+#login-show-pwd {
+    position: relative;
+    right: 5px;
+    bottom: 50px;
+    background-color: transparent;
+    border: none;
+}

@@ -1,0 +1,142 @@
+.signup-body{
+    background-color:#2D68C4;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.signup-box {
+    margin-top: 5vh;
+    background-color: white ;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    border-radius: 20px;
+}
+
+.signup-center-align {
+    padding-top: 5%;
+    text-align: center;
+}
+
+.signup-form-label {
+    font-weight: bold;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: left;
+}
+
+.signup-sub-form-label {
+    font-size: small;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: left;
+}
+
+.signup-btn {
+    background-color: #2D68C4;
+    color: white;
+    font-weight: bolder;
+    font-size: medium;
+    font-family: "Gloria Hallelujah";
+    border-style: none;
+    border-radius:40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    margin-top: 20px;
+}
+
+.signup-btn:hover {
+    color: #F2A900;
+}
+
+#signup-btn {
+    width: 50%;
+}
+
+#signup-form-box {
+    width: 60%;
+    font-size: medium;
+    padding: 10px;
+    margin-top: 12px;
+    margin-bottom:12px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    -webkit-box-shadow:0px 0px 9px 3px rgba(57,125,209,0.35);
+-moz-box-shadow: 0px 0px 9px 3px rgba(57,125,209,0.35);
+box-shadow: 0px 0px 9px 3px rgba(57,125,209,0.35);
+}
+
+#signup-form-box-name {
+    text-transform: capitalize;
+    width: 60%;
+    font-size: medium;
+    padding: 10px;
+    margin-top: 12px;
+    margin-bottom:12px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    -webkit-box-shadow:0px 0px 9px 3px rgba(57,125,209,0.35);
+-moz-box-shadow: 0px 0px 9px 3px rgba(57,125,209,0.35);
+box-shadow: 0px 0px 9px 3px rgba(57,125,209,0.35);
+}
+
+#signup-form-box-email {
+    width: 60%;
+    font-size: medium;
+    padding: 10px;
+    margin-top: 12px;
+    margin-bottom:12px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    -webkit-box-shadow:0px 0px 9px 3px rgba(57,125,209,0.35);
+-moz-box-shadow: 0px 0px 9px 3px rgba(57,125,209,0.35);
+box-shadow: 0px 0px 9px 3px rgba(57,125,209,0.35);
+}
+
+#signup-show-pwd {
+    background-color: transparent;
+    border: none;
+}
+
+.signup-form-label-pwd {
+    display: flex;
+    font-weight: bold;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.signup-form-label-right {
+    width:10%;
+    position: relative;
+    top: 45px;
+}
+
+#pwd-text {
+    width: 90%;
+    text-align: left;
+}
+
+.signup-soft-btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    color: black;
+    border: none;
+    font-weight: bolder;
+    font-size: small;
+    font-family: "Gloria Hallelujah";
+    
+}
+
+.signup-soft-btn:hover {
+    text-decoration: underline;
+    color: #F2A900;
+}

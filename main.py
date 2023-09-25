@@ -1,6 +1,6 @@
 import motor.motor_asyncio
 import random
-import asyncio
+from pymongo import MongoClient
 
 from bson import ObjectId
 from fastapi import FastAPI, HTTPException, status
